@@ -1,0 +1,86 @@
+# ==============================
+# ROS 2 Workspace
+# ==============================
+
+# ROS 2 generated directories
+build/
+install/
+log/
+
+# Colcon generated files
+.colcon/
+colcon_build/
+
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ==============================
+# Python tooling
+# ==============================
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# IDE / Editors
+# ==============================
+
+.vscode/
+.idea/
+
+# Keep VS Code project settings only if explicitly needed
+# Uncomment if you want to track .vscode:
+# !.vscode/settings.json
+
+# ==============================
+# OS generated files
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Temporary / backup files
+# ==============================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+
+# ==============================
+# ROS / Gazebo generated files
+# ==============================
+
+*.db
+*.db3
+
+# Gazebo generated files
+.gazebo/
+
+# ==============================
+# Python cache anywhere
+# ==============================
+
+**/__pycache__/

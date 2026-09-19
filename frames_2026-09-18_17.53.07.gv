@@ -1,0 +1,30 @@
+digraph G {
+"base_link" -> "azurite_ore_1"[label=" Broadcaster: default_authority\nAverage rate: 5.215\nBuffer length: 4.794\nMost recent transform: 1789734187.81967\nOldest transform: 1789734183.025896\n"];
+"arm_mount" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "azurite_ore_2"[label=" Broadcaster: default_authority\nAverage rate: 5.216\nBuffer length: 4.793\nMost recent transform: 1789734187.820007\nOldest transform: 1789734183.026732\n"];
+"base_link" -> "malachite_ore_1"[label=" Broadcaster: default_authority\nAverage rate: 5.216\nBuffer length: 4.793\nMost recent transform: 1789734187.820135\nOldest transform: 1789734183.026984\n"];
+"base_link" -> "malachite_ore_2"[label=" Broadcaster: default_authority\nAverage rate: 5.216\nBuffer length: 4.793\nMost recent transform: 1789734187.820218\nOldest transform: 1789734183.027191\n"];
+"base_link" -> "vanadinite_ore_1"[label=" Broadcaster: default_authority\nAverage rate: 5.216\nBuffer length: 4.793\nMost recent transform: 1789734187.820292\nOldest transform: 1789734183.02737\n"];
+"base_link" -> "vanadinite_ore_2"[label=" Broadcaster: default_authority\nAverage rate: 5.216\nBuffer length: 4.793\nMost recent transform: 1789734187.820398\nOldest transform: 1789734183.027538\n"];
+"map" -> "world"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"flange" -> "end_effector"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"wrist_3_link" -> "flange"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"upper_arm_link" -> "forearm_link"[label=" Broadcaster: default_authority\nAverage rate: 20.198\nBuffer length: 5.05\nMost recent transform: 930.598\nOldest transform: 925.548\n"];
+"shoulder_link" -> "upper_arm_link"[label=" Broadcaster: default_authority\nAverage rate: 20.198\nBuffer length: 5.05\nMost recent transform: 930.598\nOldest transform: 925.548\n"];
+"base_link_inertia" -> "shoulder_link"[label=" Broadcaster: default_authority\nAverage rate: 20.198\nBuffer length: 5.05\nMost recent transform: 930.598\nOldest transform: 925.548\n"];
+"base_link" -> "base_link_inertia"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"forearm_link" -> "wrist_1_link"[label=" Broadcaster: default_authority\nAverage rate: 20.198\nBuffer length: 5.05\nMost recent transform: 930.598\nOldest transform: 925.548\n"];
+"wrist_1_link" -> "wrist_2_link"[label=" Broadcaster: default_authority\nAverage rate: 20.198\nBuffer length: 5.05\nMost recent transform: 930.598\nOldest transform: 925.548\n"];
+"wrist_2_link" -> "wrist_3_link"[label=" Broadcaster: default_authority\nAverage rate: 20.198\nBuffer length: 5.05\nMost recent transform: 930.598\nOldest transform: 925.548\n"];
+"arm_mount" -> "arm_base"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"world" -> "arm_mount"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "base"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"camera_link" -> "camera_color_optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "camera_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"flange" -> "tool0"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"tool0" -> "tcp"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1789734187.9359295"[ shape=plaintext ] ;
+}->"map";
+}

@@ -18,16 +18,15 @@
 *****************************************************************************************
 '''
 
-# Team ID:          [ Team-ID ]
-# Author List:      [ Names of team members worked on this file separated by Comma: Name1, Name2, ... ]
-# Filename:         task1a_boilerplate.py
-# Functions:
-#                   [ Comma separated list of functions in this file ]
-# Nodes:            Add your publishing and subscribing node
-#                   Example:
+# Team ID:          3809
+# Author List:      Vishwa G S, Pranesh S, Dharrenya S A, Pranesh G A 
+# Filename:         task1A.py
+# Functions:        detect_ores, depthimagecb, colorimagecb, caminfocb, process_image, main
+# Nodes:            ore_tf_publisher
 #                   Publishing Topics  - [ /tf ]
-#                   Subscribing Topics - [ /camera/camera/color/image_raw, /etc... ]
-
+#                   Subscribing Topics - [ /camera/camera/color/image_raw,
+#                                          /camera/camera/aligned_depth_to_color/image_raw,
+#                                          /camera/camera/color/camera_info ]
 
 ################### IMPORT MODULES #######################
 
